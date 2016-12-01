@@ -1,0 +1,25 @@
+* {
+   outline: 1px solid red !important;
+   background: url("img/background2.jpg"), url("img/background1.jpg");
+
+}
+
+.navigation {
+    display: flex;
+    display: -webkit-flex;
+}
+
+.name {
+    font-family: 'Permanent Marker', cursive; font-size: 35px;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+}
+
+.mypic {
+    width: 200px;
+    height: 200px;
+
+}
