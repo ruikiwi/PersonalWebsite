@@ -4,56 +4,67 @@
 }
 
 #top {
-   outline: 1px solid red !important;
-   background: linear-gradient(to bottom, rgba(255, 255, 255 ,0.4) 0%,rgba(255, 255, 255, 0.4) 100%), url("img/IMG_7126.jpg");
+    outline: 1px solid red !important;
+    background: linear-gradient(to bottom, rgba(255, 255, 255 ,0.4) 0%,rgba(255, 255, 255, 0.4) 100%), url("img/background.jpg");
 }
 
 .navigation {
-
     display: -webkit-flex;
     justify-content:center;
     background : inherit;
-    padding: 20px;
+    padding: 15px;
+    font-family: 'Amatic SC', monospace;
+    font-size: 35px;
+    color: #1E4C64;
 }
 
 #name {
-    font-family: 'Permanent Marker', cursive; font-size: 35px;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 60px;
     margin: auto;
     color: #1E4C64;
 }
 
 
-
 .intro{
+    padding: 40px;
     text-align: center;
 }
 
 .menu {
     list-style-type: none;
     display: flex;
-    padding: 10px;
+    padding: 30px;
 }
 
 .menu > li > a{
     padding: 10px;
 }
 
-.intro {
-    color: #1E4C64;
-
-}
 a:link, a:visited {
     text-decoration: none;
+    color: #1E4C64;
 }
 
 #mypic {
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     display:table;
     margin:0 auto;
-    border-radius: 70%;
+    padding: 40px;
+    border-radius: 80%;
 }
 
+#description {
+    padding: 20px;
+    color: #1E4C64;
+}
+
+#cont-des{
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    padding: 10px;
+    font-size: 20px;
+}
 footer {
     padding: 1em 0;
     text-align: center;
