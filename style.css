@@ -1,25 +1,61 @@
 * {
-   outline: 1px solid red !important;
-   background: url("img/background2.jpg"), url("img/background1.jpg");
+    outline: 1px solid red !important;
+    margin:auto;
+}
 
+#top {
+   outline: 1px solid red !important;
+   background: linear-gradient(to bottom, rgba(255, 255, 255 ,0.4) 0%,rgba(255, 255, 255, 0.4) 100%), url("img/IMG_7126.jpg");
 }
 
 .navigation {
-    display: flex;
+
     display: -webkit-flex;
+    justify-content:center;
+    background : inherit;
+    padding: 20px;
 }
 
-.name {
+#name {
     font-family: 'Permanent Marker', cursive; font-size: 35px;
+    margin: auto;
+    color: #1E4C64;
+}
+
+
+
+.intro{
+    text-align: center;
 }
 
 .menu {
     list-style-type: none;
     display: flex;
+    padding: 10px;
 }
 
-.mypic {
+.menu > li > a{
+    padding: 10px;
+}
+
+.intro {
+    color: #1E4C64;
+
+}
+a:link, a:visited {
+    text-decoration: none;
+}
+
+#mypic {
     width: 200px;
     height: 200px;
+    display:table;
+    margin:0 auto;
+    border-radius: 70%;
+}
 
+footer {
+    padding: 1em 0;
+    text-align: center;
+    background: #D6EDF9;
 }
