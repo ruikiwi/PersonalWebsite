@@ -1,21 +1,21 @@
 * {
     outline: 1px solid red !important;
-    margin:auto;
+    margin: auto; 
 }
 
-#top {
-    background: linear-gradient(to bottom, rgba(255, 255, 255 ,0.4) 0%,rgba(255, 255, 255, 0.4) 100%), url("img/background.jpg");
+body {
+    background: linear-gradient(to bottom, rgba(255, 255, 255 ,0.6) 0%,rgba(255, 255, 255, 0.60) 100%), url("img/background.jpg");
+    background-attachment: fixed;
 }
 
 .navigation {
     display: -webkit-flex;
-    justify-content:center;
-    background : inherit;
     padding: 15px;
     font-family: 'Amatic SC', monospace;
     font-size: 35px;
     color: #1E4C64;
 }
+
 
 #name, #edu-title{
     font-family: 'Permanent Marker', cursive;
@@ -30,13 +30,18 @@
     text-align: center;
 }
 
-.menu {
+.menu{
     list-style-type: none;
     display: flex;
     padding: 30px;
+
+}
+.about{
+    padding: 30px;
+    text-decoration: none;
 }
 
-.menu > li > a{
+.about > li > a, .menu > li > a{
     padding: 10px;
 }
 
@@ -75,4 +80,23 @@ footer {
     text-align: center;
     color: #1E4C64;
     padding: 50px;
+}
+
+#edu-title {
+    padding: 50px;
+}
+
+.uni-name, .uni-info{
+    font-size: 20px;
+    padding: 10px;
+    font-family: 'Arvo', serif;
+}
+
+#emory {
+    padding: 30px;
+}
+
+.uni-name {
+    font-size: 30px;
+
 }
